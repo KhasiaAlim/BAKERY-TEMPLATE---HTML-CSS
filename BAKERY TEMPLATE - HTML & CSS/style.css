@@ -1,0 +1,81 @@
+/* ====== COLOR VARIABLES ======= */
+:root {
+    --color-1: #69372c;
+    --color-2: #eda7b2;
+    --color-3: #d0e3c8;
+    --color-4: #f5f3db;
+}
+
+/* ============================== */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--color-1);
+    margin: 0;
+    padding: 0;
+    color: var(--color-4);
+}
+
+header {
+    background-color: var(--color-2);
+    text-shadow: 2px 2px 20px black;
+    padding: 20px;
+    text-align: center;
+}
+
+div>ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+div>ul>li {
+    display: inline;
+    margin-right: 70px;
+    text-decoration: none;
+}
+
+div>ul>li>b>a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px -1px 20px var(--color-2);
+}
+
+div {
+    background-color: black;
+    padding: 5px;
+    margin: 0px;
+}
+
+hr {
+    margin: 0;
+}
+
+#about {
+    background-color: var(--color-2);
+    color: black;
+    padding: 20px;
+}
+
+#menu {
+    background-color: var(--color-2);
+    color: black;
+    padding: 20px;
+}
+
+#contact {
+    background-color: var(--color-2);
+    color: black;
+    padding: 20px;
+}
+
+#contact>p>a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px -1px 20px var(--color-2);
+}
+
+footer {
+    text-align: center;
+}
